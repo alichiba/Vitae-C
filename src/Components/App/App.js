@@ -3,6 +3,7 @@ import './App.css';
 import Camera from '../Camera/Camera';
 import Verbs from '../Verbs/Verbs';
 import Statements from '../Statements/Statements';
+import Upload from '../Upload/Upload';
 
 
 function App() {
@@ -13,12 +14,8 @@ function App() {
         <img className="logo" src="./images/vc2.png"></img>
           <h1>Vitae C</h1>
           <p>Reverse Engineer Your Resume.</p>
-          <a href="#statement">
-        {/* <img className="resume-image" src="./images/resume.png"></img> */}
+          <a href="#lights">
           <button>Get Started</button></a>
-        </div>
-        <div className="App-side-header">
-
         </div>
       </header>
     
@@ -27,28 +24,36 @@ function App() {
         <div className="Divider">
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Lights, Camera, Action</p>
+            <a href="#lights">
+              <p className="tab-title">Lights, Camera, Action</p>
+            </a>
           </div>
         </div>
-        <div className="Segment" id="statement">
+        <div className="Segment" id="lights">
           <div className="Statement-text">
-            <h2>Lights, <br/> Camera, <br/><span>ACTION!</span></h2>
+            <h2>Lights, <br/> <span1>Camera</span1>, <br/><span>ACTION!</span></h2>
             <font size="+3"><p>Every word in your resume <br></br> defines who you are. Be bold. <br></br> Unique. Special. Be you.</p></font>
           </div>
-          <Camera></Camera>
+          <a href="#verbs">
+            <Camera></Camera>
+          </a>
         </div>
         {/* tab 2: expressions */}
         <div className="Divider">
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Lights, Camera, Action</p>
+            <a href="#lights">
+              <p className="tab-title">Lights, Camera, Action</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
+            <a href="#verbs">
             <p className="tab-title">Expressions</p>
+            </a>
           </div>
         </div>
-        <div className="Segment-verbs">
+        <div className="Segment-verbs" id="verbs">
           <h2>Expressions to define a wholesome being &#8212; YOU!</h2>
           <div className="Verb-menu">
             <div className='Verb-section'>
@@ -66,18 +71,24 @@ function App() {
         <div className="Divider">
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Lights, Camera, Action</p>
+            <a href="#lights">
+              <p className="tab-title">Lights, Camera, Action</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Expressions</p>
+            <a href="#verbs">
+              <p className="tab-title">Expressions</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Compelling Statements</p>
+            <a href="#good-statements">
+              <p className="tab-title">Compelling Statements</p>
+            </a>
           </div>
         </div>
-        <div className="Segment-rats">
+        <div className="Segment-rats" id="good-statements">
           <h2>Compelling Statements</h2>
           <Statements example="Increased Instagram following by 3000+ followers (90% increase) through relevant, insightful and algorithm-optimized content at ABC strategies."></Statements>
           <Statements example="Re-engineered account software systems and developed a new user interface that increased customer satisfaction by 35%."></Statements>
@@ -87,22 +98,30 @@ function App() {
         <div className="Divider">
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Lights, Camera, Action</p>
+            <a href="#lights">
+              <p className="tab-title">Lights, Camera, Action</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Expressions</p>
+            <a href="#verbs">
+              <p className="tab-title">Expressions</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Compelling Statements</p>
+            <a href="#good-statements">
+              <p className="tab-title">Compelling Statements</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Not-So-Awesome Statements</p>
+            <a href="#bad-statements">
+              <p className="tab-title">Not-So-Great Statements</p>
+            </a>
           </div>
         </div>
-        <div className="Segment-rats">
+        <div className="Segment-rats" id="bad-statements">
           <h2>Not-Great Statements</h2>
           <Statements example="Responsible for handling customer service calls in calm and informative manner."></Statements>
           <Statements example="Used a computer software to create a cool program that changes font sizes."></Statements>
@@ -112,26 +131,37 @@ function App() {
         <div className="Divider">
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Lights, Camera, Action</p>
+            <a href="#lights">
+              <p className="tab-title">Lights, Camera, Action</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Expressions</p>
+            <a href="#verbs">
+              <p className="tab-title">Expressions</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Compelling Statements</p>
+            <a href="#good-statements">
+              <p className="tab-title">Compelling Statements</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">Not-So-Awesome Statements</p>
+            <a href="#bad-statements">
+              <p className="tab-title">Not-So-Great Statements</p>
+            </a>
           </div>
           <div className="Tab">
             <img className="tab-logo" src="./images/vc2.png"></img>
-            <p className="tab-title">ATS Check</p>
+            <a href="#ats">
+              <p className="tab-title">ATS Check</p>
+            </a>
           </div>
         </div>
-        <div className="Segment">
+        <div className="Segment" id="ats">
+          <Upload></Upload>
         </div>
       </body>
     </div>

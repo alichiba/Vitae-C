@@ -45,11 +45,11 @@ h1 {
   font-size: 5rem;
 }
 
-.App-header p{
+.App-header p {
   overflow: hidden;
   border-right: .15em solid black;
   white-space: nowrap;
-  margin: 0 auto;
+  margin: 0 0 4em 0;
   letter-spacing: .10em;
   animation:
     typing 3.5s steps(40, end),
@@ -65,8 +65,6 @@ h1 {
   from, to {border-color: transparent}
   50% { border-color: black}
 }
-
-
 
 .resume-image{
   width: 100%;
@@ -98,14 +96,15 @@ p {
 }
 
 .Divider {
-  background-color: #e1d0c1;
+  background-color: #d3ccc4;
+  /* background-color: #e1d0c1; */
   height: 4rem;
   display: flex;
   align-items: flex-end;
 }
 
 .Tab {
-  background-color: #d9c4b2;
+  background-color: #bcbfc0;
   width: 15%;
   height: 2rem;
   border-radius: 10px 10px 0 0;
@@ -120,22 +119,28 @@ p {
 }
 
 .tab-title{
+  text-decoration: none;
   font-size: 15px;
   color: white;
   font-weight: 500;
   padding: 3%;
 }
 
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
 .Segment {
   display: flex;
   align-items: center;
-  background-color: #d9c4b2;
+  background-color: #bcbfc0;
   min-height: 90vh;
   max-height: 90vh;
 }
 
 .Segment-verbs {
-  background-color: #d9c4b2;
+  background-color: #bcbfc0;
   min-height: 90vh;
   height: fit-content;
   display: flex;
@@ -158,16 +163,19 @@ p {
 .Statement-text {
   /* margin: 0 100rem 0 4rem; */
   margin: 16%;
+  color: white;
 }
 
 h2 {
   margin: 1rem 0;
-  color:#EAE1D8;
+  /* color:#EAE1D8; */
+  color: white;
   font-size: 3rem;
 }
 
+
 span {
-  color: #FFF6A0;
+  color: #1F4071;
   font-size: 5rem;
 }
 
@@ -193,7 +201,7 @@ span {
 
 
 .Segment-rats {
-  background-color: #d9c4b2;
+  background-color: #bcbfc0;
   min-height: 90vh;
   max-height: 90vh;
   display: flex;
