@@ -1,0 +1,14 @@
+.Dropdown {
+    width: 100%;
+}
+
+.Panel {
+    background-color: #1F4071;
+    text-align: left;
+    padding-left: 1%;
+    color: #FFF;
+    margin-top: 0.3rem;
+    border-radius: 15px;
+    overflow-y: scroll;
+    max-height: 50vh;
+}

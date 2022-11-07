@@ -3,6 +3,7 @@ html,
 #root {
   height: 100%;
   scroll-behavior: smooth;
+  font-family: 'PT Sans', sans-serif;
 }
 
 html {
@@ -23,7 +24,7 @@ header {
 
 
 .App-header {
-  background-color: #d9c4b2;
+  background-color: #bcbfc0;
   min-height: 100vh;
   max-height: 100vh;
   display: flex;
@@ -31,7 +32,7 @@ header {
   align-items: center;
   justify-content: center;
   color: white;
-  width: 70%;
+  width: 100%;
   border-radius: 0;
 }
 
@@ -57,7 +58,7 @@ h1 {
 
 @keyframes typing {
   from {width: 0}
-  to { width: 310px}
+  to { width: 295px}
 }
 
 @keyframes blink-caret{
@@ -65,17 +66,11 @@ h1 {
   50% { border-color: black}
 }
 
-.App-side-header {
-  width: 30%;
-  /* border: 2px solid #FFF6A0; */
-  /* margin-top: 2.5rem; */
-  background-color: #ffebcd;
-  min-height: 90vh;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
+.resume-image{
+  width: 100%;
+  height: 100vh;
 }
 
 button {
@@ -117,6 +112,20 @@ p {
   margin: 0 1px;
 }
 
+.tab-logo {
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding: 3%;
+}
+
+.tab-title{
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding: 3%;
+}
+
 .Segment {
   display: flex;
   align-items: center;
@@ -125,12 +134,34 @@ p {
   max-height: 90vh;
 }
 
+.Segment-verbs {
+  background-color: #d9c4b2;
+  min-height: 90vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.Verb-menu {
+  padding: 0 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Verb-section {
+  width: 20%;
+}
+
 .Statement-text {
-  margin: 0 8rem 0 4rem;
+  /* margin: 0 100rem 0 4rem; */
+  margin: 16%;
 }
 
 h2 {
-  margin: 0;
+  margin: 1rem 0;
   color:#EAE1D8;
   font-size: 3rem;
 }
@@ -139,6 +170,7 @@ span {
   color: #FFF6A0;
   font-size: 5rem;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -157,4 +189,14 @@ span {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Segment-rats {
+  background-color: #d9c4b2;
+  min-height: 90vh;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

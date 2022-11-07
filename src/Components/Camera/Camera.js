@@ -3,6 +3,7 @@ import cam1 from './cam/aperture 2.png';
 import cam2 from './cam/aperture 3.png';
 import cam3 from './cam/aperture 4.png';
 import cam4 from './cam/aperture 5.png';
+import './Camera.css';
 
 
 class Camera extends React.Component {
@@ -30,7 +31,7 @@ class Camera extends React.Component {
 
     render() {
         return (
-            <img src={this.state.images[this.state.index]} onMouseOver={this.animate} />
+            <img src={this.state.images[this.state.index]} className='Animate' />
         )
     }
 
