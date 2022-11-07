@@ -63,7 +63,7 @@ function App() {
             <Verbs title="Leadership & Management" verbs={['Augmented', 'Cultivated', 'Delegated', 'Directed', 'Empowered', 'Enforced', 'Ensured', 'Facilitated', 'Guided', 'Inspected', 'Inspired', 'Leveraged', 'Mentored', 'Motivated', 'Optimized', 'Supervised', 'Trained', 'Verified']} />
             </div>
             <div className='Verb-section'>
-            <Verbs title=" Creativity & Critical Thinking" verbs={['Accelerated', 'Assembled', 'Autheticated', 'Automated', 'Branched', 'Boosted', 'Calibrated', 'Certified', 'Configured', 'Constructed', 'Extracted', 'Integrated', 'Launched', 'Prototyped', 'Replicated', 'Routed', 'Systemized', 'Tested']} />
+            <Verbs title="Technical Expertise" verbs={['Accelerated', 'Assembled', 'Autheticated', 'Automated', 'Branched', 'Boosted', 'Calibrated', 'Certified', 'Configured', 'Constructed', 'Extracted', 'Integrated', 'Launched', 'Prototyped', 'Replicated', 'Routed', 'Systemized', 'Tested']} />
             </div>
           </div>
         </div>
