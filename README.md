@@ -1,4 +1,4 @@
-# Vitae C
+# Vitae C (HackCamp 2022)
 
 ## Inspiration 
 Creating a resume can be very daunting when first starting your career, especially when many conventions for the job application process and industry-specific norms are not easily accessible to the aspiring workforce. 
